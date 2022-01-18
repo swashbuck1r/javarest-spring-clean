@@ -1,6 +1,6 @@
 {
 	"metadata": {
-		"version": 1
+		"version": 2
 	},
 	"application": {
 		"name": "javarest-spring-clean",
@@ -73,7 +73,10 @@
 								"properties": null
 							}
 						],
-						"docker_options": {}
+						"docker_options": {
+							"docker_registry_alias_id": "b7538d0f-4373-4d39-7300-76e6642699b1",
+							"repository": "dockerhub-proxy/library/openjdk:11"
+						}
 					}
 				]
 			}
@@ -81,13 +84,7 @@
 		"exit_actions": {},
 		"default_properties": [],
 		"deployment_files": [],
-		"application_init": {},
-		"releases": [
-			{
-				"name": "consul",
-				"version": "latest"
-			}
-		]
+		"application_init": {}
 	},
 	"organization": {
 		"orgname": "swashbuck1r"
